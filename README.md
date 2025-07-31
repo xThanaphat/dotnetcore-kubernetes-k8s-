@@ -63,7 +63,6 @@ helm install my-rabbitmq bitnami/rabbitmq
 - dotnetapp-deployment.yaml
 - dotnetcore-service.yaml
 - dotnetcore-ingress.yaml
-- 
 ```bash
 kubectl apply -f dotnetcore-configmap.yaml
 kubectl apply -f dotnetapp-deployment.yaml
